@@ -1,0 +1,33 @@
+body {
+	width: 6.5in;
+	margin: 1in auto;
+	}
+
+nav {
+	display: none;
+	}
+
+
+a {
+		color: black;
+		text-decoration: none;
+		}
+	
+del {
+		display: none;
+}
+
+header,
+#notes h3 {
+		text-align: center;
+		}
+
+p {
+		text-indent: 2em;
+		line-height: 2;
+		margin: 0;
+		}
+		
+#notes p {
+		text-indent: 0;
+}
