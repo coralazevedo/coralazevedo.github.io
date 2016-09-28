@@ -1,0 +1,28 @@
+body {
+	width: 90%;
+	max-width: 60em;
+	margin: 0 auto
+	}
+
+
+nav, 
+ol, 
+li {
+	/* border:1px solid #000; */
+}
+
+nav ol {
+	padding-left: 0;
+	}
+
+li {
+display: inline;
+margin-right: 1em;
+	}
+
+
+p {
+	line-height: 1.4;
+	margin: 0;
+	margin-left: 1em;
+	}
