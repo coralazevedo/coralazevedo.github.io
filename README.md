@@ -19,11 +19,14 @@
 <h1>Web Authoring I</h1>
 
 <h3>Projects</h3>
-
+<ul>
 <li>Font Site Coming Soon…</li>
+</ul>
 
 <h3>Exercises</h3>
 
 <ul>
 <li class="li"><a href="html-document/homework.html">HTML Document (for screen and print)</a></li>
+
+<li class="li"><a href="html5-haiku-css/index.html">Haiku</a></li>
 </ul>
