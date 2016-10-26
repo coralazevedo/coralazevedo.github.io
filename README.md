@@ -17,3 +17,7 @@
 </ul>
 
 <h1>Web Authoring I</h1>
+
+<h3>Projects</h3>
+
+<h3>Exercises</h3>
