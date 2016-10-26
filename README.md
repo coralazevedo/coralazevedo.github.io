@@ -21,3 +21,5 @@
 <h3>Projects</h3>
 
 <h3>Exercises</h3>
+
+<li class="li"><a href="html-document/homework.html">HTML Document (for screen and print)</a></li>
