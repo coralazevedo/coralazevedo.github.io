@@ -20,6 +20,10 @@
 
 <h3>Projects</h3>
 
+<li>Font Site Coming Soon…</li>
+
 <h3>Exercises</h3>
 
+<ul>
 <li class="li"><a href="html-document/homework.html">HTML Document (for screen and print)</a></li>
+</ul>
