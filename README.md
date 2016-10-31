@@ -7,6 +7,8 @@
 <h3>Film Response Project</h3>
 
 <ul>
+<li><a href="type-2/og_response.jpg">Original Response</a></li>
+
 <li><a href="type-2/film-response.html">HTML</a></li>
 
 <li><a href="type-2/film-response.css">CSS</a></li>
