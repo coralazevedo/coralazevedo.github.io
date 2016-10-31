@@ -1,0 +1,93 @@
+img {
+	max-width: 80%;
+	max-height: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	size: 10em;
+	}	
+	
+.lyricimg {
+	max-width: 70%;
+	max-height: 80%;
+	display: block;
+	margin-left: 132px;
+	margin-right: auto;
+	size: 10em;
+	}	
+	
+.songimg {
+	max-width: 65%;
+	max-height: 53%;
+	size: 10em
+	display: block;
+	margin-left: 0;
+	border-right: 550px solid #aaa;
+	border-left: 130px solid #aaa;
+	border-top: 3px solid #aaa;
+	border-bottom: 3px solid #aaa;
+	}
+	
+.coverimg {
+	max-width: 52%;
+	max-height: 75%;
+	size: 10em
+	display: block;
+	margin-left: 0;
+	border-right: 550px solid #aaa;
+	border-left: 350px solid #aaa;
+	border-top: 3px solid #aaa;
+	border-bottom: 3px solid #aaa;
+	}
+
+a {
+	font-family: "Helvetica";
+	color: #aaa;
+	}
+	
+.ogphoto {
+	margin-left: 92px
+}
+
+.songtext {
+	margin-left: 92px
+	}
+	
+body {
+	background-color: black;
+}
+
+p {
+	font-family: "Helvetica";
+	color: #aaa;
+}
+
+h3 {
+	font-family: "Gloria Hallelujah";
+	color: white;
+	
+	}
+	
+h1 {
+	font-family: "Gloria Hallelujah";
+	color: white;
+	text-align: center;
+	}
+	
+h6 {
+	font-family: "Helvetica";
+	color: white;
+	text-align: center;
+	}
+	
+.covergrid {
+	max-width: 65%;
+	max-height: 53%;
+	size: 10em
+	display: block;
+	margin-left: 0;
+	border-right: 550px solid #aaa;
+	border-left: 130px solid #aaa;
+	border-top: 3px solid #aaa;
+	border-bottom: 3px solid #aaa;
+}
