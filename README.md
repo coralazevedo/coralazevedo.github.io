@@ -4,6 +4,16 @@
 
 <h2>Markup Index</h2>
 
+<h3>Record Sleeve Project</h3>
+
+<ul>
+<li><a href="type-2/record_sleeve.indd">Record Sleeve</a></li>
+
+<li><a href="type-2/record_insert.indd">Record Sleeve Insert</a></li>
+
+<li><a href="type-2/webindex.html">Project Critique Website</a></li>
+ </ul>
+
 <h3>Film Response Project</h3>
 
 <ul>
