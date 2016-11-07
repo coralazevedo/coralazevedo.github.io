@@ -1,0 +1,134 @@
+h1 {
+  font-family: "Verdana-Bold";
+  font-size: 15vw;
+  color: white;
+  text-align: center;
+  background-color: #9ee;
+  padding: .7em 1.25em .7em 1.25em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+nav {
+background-color: #fad;
+}
+
+li,
+a {
+  font-family: "Verdana-Italic";
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  padding: .3em 1.25em .3em 1.25em;
+  border-bottom: .2em solid transparent;
+	transition: border-bottom .5s ease;
+  display: inline-block;
+}
+
+a:focus,
+a:hover {
+	padding-bottom: .1em;
+	border-bottom: .2em solid white;
+	}
+
+ul{
+padding: 1em 5.3em 1em 5.3em;
+margin-top: -.2em;
+margin-left: 0;
+margin-right: 0;
+}
+
+.switched {
+  font-family: "Verdana";
+  font-size: 3.75em;
+}
+
+.helvetica {
+  font-family: "Helvetica-Bold";
+  font-size: 1.5em;
+}
+
+.eyeballs {
+  font-family: "Verdana-Italic";
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #faa;
+  
+  padding: 10em 1.25em 10em 1.25em;
+}
+
+.squish {
+  font-family: "Verdana";
+  font-size: 3em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.bloat {
+  font-family: "Verdana-Bold";
+  font-size: 1.7em;
+  padding-left: .15em;
+  letter-spacing: .19em;
+}
+
+.squished {
+font-size: 1.2em;
+letter-spacing: -.15em;
+}
+
+
+.comic {
+font-family: "Verdana";
+color: white;
+font-size: 1em;
+background-color: #9ee;
+text-align: center;
+padding: 4em 0em 4em 0em;
+}
+
+
+.sans {
+font-family: "ComicSansMS";
+color: white;
+font-size: 1.5em;
+}
+
+.mess {
+font-family: "Verdana";
+font-size: 1.5em;
+text-align: center;
+background-color: #faa;
+padding: 10em 1.25em 10em 1.25em;
+margin-top: -1.5em;
+}
+
+.chunky {
+font-family: "Verdana-Bold";
+font-size: 3em;
+}
+
+.compare {
+font-family: "Verdana";
+font-size: 1.5em;
+color: #faa;
+margin-left: 1em;
+margin-top: 4em;
+}
+
+.bump {
+margin-left: .5em;
+}
+
+.footer {
+color: #fad;
+margin-bottom: 0;
+}
+
+
+
+
+
+
