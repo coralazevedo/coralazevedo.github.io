@@ -32,7 +32,7 @@
 
 <h3>Projects</h3>
 <ul>
-<li>Font Site Coming Soon…</li>
+<li><a href="verdana-site/verdana-home.html">Verdana Site</a></li>
 </ul>
 
 <h3>Basic Exercises</h3>
