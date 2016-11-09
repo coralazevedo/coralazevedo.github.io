@@ -1,0 +1,211 @@
+body {
+background: #eee;
+}
+
+/* square circle triangle demo */
+
+#square-1 {
+float: left;
+width: 8em;
+height: 8em;
+background: #f00;
+}
+
+#circle-1 {
+float: left;
+width: 8em;
+height: 8em;
+background: #0f0;
+border-radius: 50%;
+margin-left: .5em;
+}
+
+#triangle-1 {
+float: left;
+font-size: 200%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-bottom: 4em solid #00f;
+}
+
+/* candy corn */
+
+#candy-corn {
+position: relative;
+font-size: 300%;
+width: 8em;
+/* border: 1px dashed #000; */
+margin: 1em auto;
+}
+
+
+#candy-corn .corn {
+width: 0;
+height: 0;
+line-height: 0;
+border: 4em dashed transparent;
+border-top: 0;
+border-bottom: 8em solid #f90;
+border-radius: .5em;
+}
+
+#candy-corn .top-stripe {
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+width: 0;
+height: 0;
+line-height: 0;
+border: 1.5em dashed transparent;
+border-top: 0;
+border-bottom: 3em solid #fff;
+border-radius: .5em;
+margin: 0 auto;
+}
+
+#candy-corn .bottom-stripe {
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+width: 6em;
+height: 0;
+line-height: 0;
+border: 1em dashed transparent;
+border-top: 0;
+border-bottom: 2em solid #ff0;
+border-radius: .5em;
+margin: 0 auto;
+}
+
+@media (min-width: 60em ) {
+
+
+#candy-corn {
+display: none;
+}
+
+
+}
+
+/* Spider */
+
+.spider {
+font-size: 300%;
+position: relative;
+width: 4em;
+margin: 1em auto;
+}
+
+
+
+
+.spider .leg-1 {
+position: absolute;
+top: -2em;
+right: 0;
+left: 0;
+width: 0;
+height: 0;
+line-height: 0;
+width: .1em;
+height: 7em;
+background: #000;
+transform: rotate(110deg);
+margin: 0 auto;
+}
+
+.spider .leg-2 {
+position: absolute;
+top: -2em;
+right: 0;
+left: 0;
+width: 0;
+height: 0;
+line-height: 0;
+width: .1em;
+height: 7em;
+background: #000;
+transform: rotate(65deg);
+margin: 0 auto;
+}
+
+.spider .leg-3 {
+position: absolute;
+top: -2em;
+right: 0;
+left: 0;
+line-height: 0;
+width: .1em;
+height: 7em;
+background: #000;
+transform: rotate(83deg);
+margin: 0 auto;
+}
+
+.spider .leg-4 {
+position: absolute;
+top: -2em;
+right: 0;
+left: 0;
+line-height: 0;
+width: .1em;
+height: 7em;
+background: #000;
+transform: rotate(97deg);
+margin: 0 auto;
+}
+
+.spider .body {
+width: 4em;
+height: 3em;
+background: #000;
+border-radius: 50%;
+margin-left: .5em;
+margin-top: 1em;
+margin: 0 auto;
+}
+
+.spider .eye-1 {
+position: absolute;
+top: 2em;
+right: 2.5em;
+width: .5em;
+height: .5em;
+background: #fff;
+border-radius: 50%;
+margin-left: 2em;
+margin-top: 4em;
+margin: 0 auto;
+}
+
+.spider .eye-2 {
+position: absolute;
+top: 2em;
+right: 1.5em;
+width: .5em;
+height: .5em;
+background: #fff;
+border-radius: 50%;
+margin-left: 2em;
+margin-top: 4em;
+margin: 0 auto;
+}
+
+.spider .string {
+position: absolute;
+top: -1em;
+right: 0;
+left: 2em;
+line-height: 0;
+width: .1em;
+height: 1em;
+background: #fff;
+
+}
+
+
