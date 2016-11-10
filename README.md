@@ -2,8 +2,6 @@
 
 <h1>Type II</h1>
 
-<h2>Markup Index</h2>
-
 <h3>Record Sleeve Project</h3>
 
 <ul>
@@ -26,6 +24,12 @@
 <li><a href="type-2/film-response-print.css">Print Style</a></li>
 
 <li><a href="type-2/film-response.ps">PostScript</a></li>
+</ul>
+
+<h3>Exercises</h3>
+
+<ul>
+<li><a href="type-styles/index.html">Type Styles</a></li>
 </ul>
 
 <h1>Web Authoring I</h1>
