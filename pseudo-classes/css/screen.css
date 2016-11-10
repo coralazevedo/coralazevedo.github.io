@@ -1,0 +1,35 @@
+nav ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+nav li {
+	margin: .5em 0 0 ;
+}
+
+
+a {
+  text-decoration: none;
+	padding-bottom: .2em;
+  color: #000;
+	border-bottom: 1px dotted transparent;
+	transition: border-bottom .5s ease;
+}
+
+section:target {
+	background: #ff0;
+	padding:  20px;
+	transition: background 1s linear;
+}
+
+a:focus,
+a:hover {
+	padding-bottom: .2em;
+	border-bottom: 1px dotted #000;
+}
+
+/* pseudo-element (::) */ 
+
+::selection {
+	background: yellow;
+}
