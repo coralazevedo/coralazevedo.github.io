@@ -43,6 +43,8 @@
 <li class="li"><a href="html-document/homework.html">HTML Document (for screen and print)</a></li>
 
 <li class="li"><a href="html5-haiku-css/index.html">Haiku</a></li>
+
+<li class="li"><a href="hex-colors/index.html">Hex Colors</a></li>
 </ul>
 
 <h3>Drawing Exercises</h3>
