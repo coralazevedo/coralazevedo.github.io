@@ -1,0 +1,105 @@
+.color-swatches li {
+  width: 4em;
+  height: 4em;
+  border: 1px solid #000;
+  margin-bottom: .5em;
+}
+
+
+/* 0123456789abcdef (black to white) */
+
+
+.rgb-000 {
+  background-color: #000;
+}
+
+.rgb-111 {
+  background-color: #111;
+}
+
+
+.rgb-222 {
+  background-color: #222;
+}
+
+.rgb-333 {
+  background-color: #333;
+}
+
+
+.rgb-444 {
+  background-color: #444;
+}
+
+
+.rgb-555 {
+  background-color: #555;
+}
+
+.rgb-666 {
+  background-color: #666;
+}
+
+.rgb-777 {
+  background-color: #777;
+}
+
+.rgb-888 {
+  background-color: #888;
+}
+
+.rgb-ccc {
+  background-color: #ccc;
+}
+
+.rgb-ddd {
+  background-color: #ddd;
+}
+
+.rgb-eee {
+  background-color: #eee;
+}
+
+
+
+/* colors */
+
+
+
+.rgb-f00 {
+  background-color: #f00;
+}
+
+
+.rgb-0f0 {
+  background-color: #0f0;
+}
+
+.rgb-00f {
+  background-color: #00f;
+}
+
+.rgb-600 {
+  background-color: #600;
+}
+
+
+.rgb-fcc {
+  background-color: #fcc;
+}
+
+.rgb-ff0 {
+  background-color: #ff0;
+}
+
+.rgb-f0f {
+  background-color: #f0f;
+}
+
+.rgb-0ff {
+  background-color: #0ff;
+}
+
+.rgb-ff8 {
+  background-color: #ff8;
+}
