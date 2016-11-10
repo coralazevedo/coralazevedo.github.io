@@ -29,7 +29,7 @@
 <h3>Exercises</h3>
 
 <ul>
-<li><a href="type-styles/index.html">Type Styles</a></li>
+<li><a href="type-2/type-styles/index.html">Type Styles</a></li>
 </ul>
 
 <h1>Web Authoring I</h1>
