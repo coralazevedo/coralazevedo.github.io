@@ -33,6 +33,8 @@
 <h3>Projects</h3>
 <ul>
 <li><a href="verdana-site/verdana-home.html">Verdana Site</a></li>
+
+<li><a href="#">Drawing Project Coming Soon…</a></li>
 </ul>
 
 <h3>Basic Exercises</h3>
