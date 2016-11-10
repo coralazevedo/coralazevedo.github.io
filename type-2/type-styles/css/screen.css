@@ -1,0 +1,65 @@
+p {
+  font-family: Courier;
+}
+
+.all-caps {
+  text-transform: uppercase;
+}
+
+.size-2x {
+  font-size: 200%;
+}
+.serif {
+  font-family: Georgia, serif;
+}
+
+.space {
+  vertical-align: middle;
+}
+
+.ht-h {
+  font-family: Georgia, serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  background: brown;
+  padding: 5px 5px 5px 5px;
+  vertical-align: middle;
+}
+
+.ht-pe {
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+  color: #9ee;
+  background: red;
+  text-transform: uppercase;
+  padding: 5px 5px 5px 5px;
+  vertical-align: middle;
+}
+
+.ht-type {
+  position: relative;
+  top:0;
+  left: -.6em;
+}
+
+.br {
+  display: block;
+}
+
+.lh-2 {
+  line-height: 2;
+}
+
+.live-i {
+  position: relative;
+  top: 1em;
+}
+
+.live {
+  display: inline-block;
+  letter-spacing: 1em;
+  margin-bottom: 3em;
+}
