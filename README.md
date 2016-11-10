@@ -51,6 +51,8 @@
 <li class="li"><a href="hex-colors/index.html">Hex Colors</a></li>
 
 <li class="li"><a href="pseudo-classes/index.html">Pseudo Classes</a></li>
+
+<li class="li"><a href="breakpoints/index.html">Breakpoints</a></li>
 </ul>
 
 <h3>Drawing Exercises</h3>
