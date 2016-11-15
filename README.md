@@ -61,4 +61,6 @@
 <li class="li"><a href="css-shapes/index.html">Halloween Drawings</a></li>
 
 <li class="li"><a href="css-shapes-redux/index.html">Pizza Drawing</a></li>
+
+<li class="li"><a href="gradients/gradients.html">Gradients</a></li>
 </ul>
