@@ -1,0 +1,17 @@
+/* http://www.colinkeany.com/blend/  */
+
+#circle {
+	width: 8em;
+	height: 8em;
+	background: #000;
+	background: radial-gradient( #ccc, #000);
+	border-radius: 50%;
+}
+
+#circle-2 {
+	width: 8em;
+	height: 8em;
+	background: #000;
+	background: linear-gradient( 110deg, #ccc, #000);
+	border-radius: 50%;
+}
