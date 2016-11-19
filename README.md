@@ -63,4 +63,6 @@
 <li class="li"><a href="css-shapes-redux/index.html">Pizza Drawing</a></li>
 
 <li class="li"><a href="gradients/gradients.html">Gradients</a></li>
+
+<li class="li"><a href="animation/index.html">Animating</a></li>
 </ul>
