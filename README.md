@@ -38,7 +38,7 @@
 <ul>
 <li><a href="verdana-site/verdana-home.html">Verdana Site</a></li>
 
-<li><a href="#">Drawing Project Coming Soon…</a></li>
+<li><a href="drawing-project/food-drawings.html">Drawing Project</a></li>
 </ul>
 
 <h3>Basic Exercises</h3>
