@@ -1,0 +1,153 @@
+html {
+  font: 100%/1 sans-serif;
+}
+
+
+body {
+  width: 90%; /*overall width */
+  max-width: 50em; /* maximum width */
+  margin: 0 auto; /* top/bottom right/left */
+}
+
+@media (min-width: 60em) {
+
+  body {
+    font-size: 107.14%;
+  }
+
+main {
+  margin: 5 15%;
+}
+
+h1 {
+  width: 90%
+}
+
+}
+
+@media (min-width: 10em) {
+
+  body {
+    width: 80%;
+  }
+}
+
+h1,
+h2,
+h4,
+p {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+
+/* typographic styles */
+
+/* paragraph / foundation */
+
+/*
+1.4 measure
+
+1/4: .35, .7, 1.05, 1.4
+1/5: .28, .56, .84, 1.02, 1.12
+*/
+
+
+p {
+  font: 1em/1.4 "Helvetica", sans-serif;
+  margin: .84em 0;
+  font-size: 1.25em;
+  line-height: 1.2em;
+}
+
+/* headings / foundation */
+
+h1 {
+  font-size: 2.8em;
+  line-height: 1.2;
+  margin-top: .28em;
+  margin-bottom: .28em;
+}
+
+/* 1.68 + .28 = 1.96 / 1.68 = 1.66 */
+h2 {
+  font-size: 1.5em;
+  line-height: 1.166;
+  margin-top: .28em;
+  margin-bottom: .28em;
+  font-family: "Georgia-Italic"
+}
+
+h3 {
+	font-size: 2em;
+	font-family: "Georgia", serif;
+	color: #7cc4ed;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+h6 {
+	font-family: "helvetica", sans-serif;
+}
+
+.may {
+	text-decoration: none;
+	color: #7cc4ed;
+}
+.opening {
+	font-family: "Helvetica" sans-serif;
+	color:  #b1b0b1;
+}
+
+nav {
+	background: #7cc4ed;
+	padding: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+.original {
+color: #b1b0b1;
+margin-top: .5em;
+}
+
+li {
+	padding: .25em;
+	color: #fff;
+}
+
+.fashionsite {
+color: #b1b0b1;
+
+}
+
+.fashionsite:hover {
+	padding-bottom: 0;
+	border-bottom: .1em dotted #b1b0b1;
+}
+
+img {
+max-width: 100%;
+padding-bottom: 2eqm;
+height: auto;
+}
+
+/* 
+.col-1 {
+width: 50%;
+float: left;
+}
+
+.col-2 {
+display: inline-block;
+float: right;
+width: 50%;
+padding-right: 2em;
+}
+ */
+
