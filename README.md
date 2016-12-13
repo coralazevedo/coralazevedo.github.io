@@ -29,7 +29,7 @@
 <h3>Article Project</h3>
 
 <ul>
-<li><a href="#">Article Website</a></li>
+<li><a href="type-2/index.html">Article Website</a></li>
 </ul>
 
 <h3>Exercises</h3>
