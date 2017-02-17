@@ -1,0 +1,47 @@
+img {
+  max-width: 20em;
+  height: auto;
+  border: 1em solid #e498b1;
+  border-bottom: 5em solid #e498b1;
+  margin-left: 1em;
+}
+
+h2 {
+  font-family: "Georgia", serif;
+  font-weight: normal;
+  color: #7c3d52;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+p {
+  font-family: "TrebuchetMS", sans-serif;
+  line-height: 1.8em;
+  max-width: 22em;
+}
+
+h1 {
+  font-family: "Georgia", serif;
+  font-weight: normal;
+  color: #e498b1;
+}
+
+@media (min-width: 30em) {
+
+body {
+ margin-left: auto;
+ margin-right: auto;
+ width: 30em;
+}
+
+img {
+  margin-left: 0;
+}
+
+}
+
+@media (min-width: 60em) {
+
+
+
+}
