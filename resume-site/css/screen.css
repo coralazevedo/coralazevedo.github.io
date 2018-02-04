@@ -1,21 +1,29 @@
+body {
+	margin: 0;
+}
+
 main {
 	width: 65%;
 	float: right;
 	margin-top: 5em;
 }
 
-
-img {
+.logo img {
 	max-width: 18em;
 	height: auto;
-	margin-left: 0;
-	margin-bottom: 3em;
+}
+
+.logo {
+	max-width: 100%;
+	height: auto;
+	margin-left: 1em;
+	margin-bottom: 0em;
 	margin-top: 1em;
 }
 
 h1 {
 	font-size: 1.2em;
-	font-family: "Helvetica", sans-serif;
+	font-family: "Arial Narrow", "Arial", sans-serif;
 	font-weight: normal;
 	text-transform: uppercase;
 	color: #999;
@@ -23,49 +31,81 @@ h1 {
 
 .logo {
  margin-bottom: 0;
+ margin-top: 1em;
 }
 
 header {
 	position: fixed;
 	margin-top: 0;
+
+}
+
+.photoright {
+	display: inline;
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+
+.photoleft {
+	display: inline;
+	float: left;
+	margin: 0;
 }
 
 @media (max-width: 58em) {
 
 main {
-	width: 97%;
+	width: 100%;
 	/* text-align: center; */
 	margin-top: 10em;
-	margin-left: 3em;
+	margin-left: 0em;
 }
 
-	
+.portfolio-pic img {
+max-width: 20em;
+height: auto;
+}
+
 img {
-	max-width: 80%;
-	height: auto;	
+	max-width: 100%;
+	height: auto;
  	text-align: center;
  	margin-top: 0;
  	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
 }
 
+
+
 .nav {
+	font-size: .8em;
 	margin: auto -1.1em;
 	display: inline-block;
-	margin-top: -1em;
-	
+	margin-top: 0em;
+
 	}
-	
+
 ul {
 	/* text-align: center; */
 	background-color: #fff;
-	padding-bottom: 1em;
+	padding-bottom: .5em;
 	padding-top: 0em;
+	margin-left: 0em;
+}
+
+li {
+	padding: .3em;
 }
 
 header {
 	position: fixed;
 	top: 0;
 	background-color: #fff;
+	width: 100%;
+	margin-bottom: 0;
 	}
 }
 
@@ -73,15 +113,18 @@ nav {
 	margin-top: 0;
 }
 
-
+ul {
+	margin-left: 0em;
+}
 
 .nav {
-	font-family: "Helvetica", sans-serif;
+	font-family: "Arial Narrow", "Arial", sans-serif;
 	font-size: .8em;
 	text-transform: uppercase;
 	list-style: none;
-	line-height: 4em;
-	margin-left: 4em;
+	line-height: 2.5em;
+	margin-left: 1em;
+	margin-top: 0em;
 	color: #999;
 }
 
@@ -91,20 +134,20 @@ nav {
 }
 
 .nav a:hover {
-	color: #d93b27;
+	color: #f2ddc8;
 }
 
 .photoright {
-	/* display: inline; */
-	margin: 0 1em;
-	width: 85%;
+	display: inline;
+	margin: 0;
+	width: 100%;
 	height: auto;
 }
 
 .photoleft {
 	display: inline;
 	float: left;
-	margin: 0 1em;
+	margin: 0;
 }
 
 
@@ -152,7 +195,7 @@ h2 {
 	margin-left: 2.5em;
 	max-width: 33em;
 	}
-	
+
 h3 {
 	font-family: "Helvetica", sans-serif;
 	color: #000;
@@ -202,8 +245,13 @@ h6 {
 	margin-bottom: 3em;
 }
 
+/* PORTFOLIO */
 
-
-
-
-
+.portfolio-pic {
+	margin-left: 0;
+	padding: 0;
+	max-width: 100%;
+	height: auto;
+	float: left;
+	display: block;
+}
