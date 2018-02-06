@@ -1,11 +1,10 @@
 body {
-	margin: 0;
+	margin: 0 auto;
 }
 
 main {
-	width: 65%;
-	float: right;
-	margin-top: 5em;
+	margin: 0 auto;
+  max-width: 90em;
 }
 
 .logo img {
@@ -13,12 +12,14 @@ main {
 	height: auto;
 }
 
+
 .logo {
 	max-width: 100%;
 	height: auto;
 	margin-left: 1em;
 	margin-bottom: 0em;
 	margin-top: 1em;
+
 }
 
 h1 {
@@ -32,11 +33,22 @@ h1 {
 .logo {
  margin-bottom: 0;
  margin-top: 1em;
+display: inline;
 }
 
 header {
 	position: fixed;
+	padding-top: 1em;
 	margin-top: 0;
+	background-color: #fff;
+	width: 100%;
+}
+
+.nav {
+	display: inline;
+}
+
+ul {
 
 }
 
@@ -53,13 +65,71 @@ header {
 	margin: 0;
 }
 
-@media (max-width: 58em) {
+
+
+footer p {
+	font-family: "Arial Narrow", "Arial", sans-serif;
+	font-size: .7em;
+	text-align: center;
+	color: #999;
+	margin-bottom: 2em;
+}
+
+@media (min-width: 58em) {
+
+	.logo {
+		float: left;
+	}
 
 main {
 	width: 100%;
-	/* text-align: center; */
-	margin-top: 10em;
-	margin-left: 0em;
+	margin: 0 auto;
+}
+
+.instalogo {
+	width: 1.5em;
+	height: auto;
+	display: inline-block;
+	float: right;
+	padding-top: 0;
+	margin-top: -3.3em;
+	padding: 1em;
+	margin-left: 0;
+}
+
+.linkedinlogo {
+	width: 1.1em;
+	height: auto;
+	display: inline-block;
+	float: right;
+	margin-top: -3.2em;
+	padding: 1em;
+	margin-right: -1em;;
+}
+
+#resume {
+	margin-top: 5em;
+}
+
+}
+
+@media (max-width: 58em) {
+
+.instalogo {
+		display: none;
+	}
+
+	.linkedinlogo {
+			display: none;
+		}
+
+main {
+	max-width: 100vw;
+
+margin: 0 auto;
+}
+#resume {
+	margin-top: 8em;
 }
 
 .portfolio-pic img {
@@ -79,14 +149,15 @@ img {
 }
 
 
-
 .nav {
-	font-size: .8em;
 	margin: auto -1.1em;
-	display: inline-block;
+	display: inline;
 	margin-top: 0em;
-
 	}
+
+.nav a {
+	font-size: .8em;
+}
 
 ul {
 	/* text-align: center; */
@@ -107,6 +178,7 @@ header {
 	width: 100%;
 	margin-bottom: 0;
 	}
+
 }
 
 nav {
@@ -123,6 +195,7 @@ ul {
 	text-transform: uppercase;
 	list-style: none;
 	line-height: 2.5em;
+	display: inline;
 	margin-left: 1em;
 	margin-top: 0em;
 	color: #999;
@@ -229,10 +302,10 @@ h3 {
 }
 
 .topbutton a {
-	font-family: "Helvetica", sans-serif;
+	font-family:  "Arial Narrow", "Arial", sans-serif;;
 	font-weight: normal;
 	font-size: 1.2em;
-	text-align: left;
+	text-align: right;
 	color: #999;
 	margin-left: 3em;
 	text-decoration: none;
@@ -245,7 +318,7 @@ h6 {
 	margin-bottom: 3em;
 }
 
-/* PORTFOLIO */
+/* PORTFOLIO
 
 .portfolio-pic {
 	margin-left: 0;
@@ -255,3 +328,4 @@ h6 {
 	float: left;
 	display: block;
 }
+*/
