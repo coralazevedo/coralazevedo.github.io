@@ -81,10 +81,10 @@
 <li class="li"><a href="animation/index.html">Animating</a></li>
 </ul>
 
-<h1>Further Practice</h1>
+<h1>After I Paid $103,225</h1>
 
-<h3>Favorites Site</h3>
+<h3>Further Practice</h3>
 
 <ul>
-<li class="li"><a href="css-shapes/index.html">Halloween Drawings</a></li>
+<li class="li"><a href="favorites-site/favorites-site.html">Favorites Site</a></li>
 </ul>
