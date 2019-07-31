@@ -82,3 +82,9 @@
 </ul>
 
 <h1>Further Practice</h1>
+
+<h3>Favorites Site</h3>
+
+<ul>
+<li class="li"><a href="css-shapes/index.html">Halloween Drawings</a></li>
+</ul>
