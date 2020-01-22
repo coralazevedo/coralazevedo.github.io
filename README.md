@@ -92,5 +92,5 @@
 <h3>Learning Javascript</h3>
 
 <ul>
-<li class="li"><a href="favorites-site/favorites-site.html">Positioning Exercise</a></li>
+<li class="li"><a href="javascript-foundations/positioning.html">Positioning Exercise</a></li>
 </ul>
