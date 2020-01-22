@@ -88,3 +88,9 @@
 <ul>
 <li class="li"><a href="favorites-site/favorites-site.html">Favorites Site</a></li>
 </ul>
+
+<h3>Learning Javascript</h3>
+
+<ul>
+<li class="li"><a href="favorites-site/favorites-site.html">Positioning Exercise</a></li>
+</ul>
