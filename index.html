@@ -76,7 +76,8 @@ a {
  #stage {
 	position: relative;
 	width: 16em;
-	height: 4em;
+	height: 16em;
+	border: 1px solid #000;
 	margin: auto;
 }
 
@@ -97,18 +98,45 @@ a {
 		transform: rotate(0deg);
 	}
 	
-	33% {
+	25% {
 		top: 0;
 		left: 12em;
 		transform: rotate(360deg);
 	}
 	
+	50% {
+		top: 12em;
+		left: 12em;
+		transform: rotate(0deg);
+	}
+	
+	75% {
+		top: 12em;
+		left: 0;
+		transform: rotate(360deg);
+	}
 	
 	100% {
 		top: 0;
 		left: 0;
 		transform: rotate(0deg);
 	}
+}
+  
+@keyframes fade-in-out {
+
+0% {
+opacity: 1;
+}
+
+50% {
+opacity: 0;
+}
+
+100% {
+opacity: 1;
+}
+
 }
   
 
