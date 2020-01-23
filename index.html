@@ -61,20 +61,84 @@ li {
   padding-left: 2em;
   }
   
+ .lastname {
+   padding-top: 0em;
+  
 a {
   color: black;
   text-decoration: none;
   }
+   
+*/ Animation /*
+   
+ #stage {
+	position: relative;
+	width: 16em;
+	height: 4em;
+	margin: auto;
+}
+
+#circle {
+	position: absolute;
+	width: 4em;
+	height: 4em;
+		background: linear-gradient(90deg, #fad, #88CFD6);
+	border-radius: 50%;
+	animation: move 5s infinite, fade-in-out 3s ease-in-out infinite;
+}
+
+@keyframes move {
+	
+	0% {
+		top: 0;
+		left: 0;
+		transform: rotate(0deg);
+	}
+	
+	33% {
+		top: 0;
+		left: 12em;
+		transform: rotate(360deg);
+	}
+	
+	
+	100% {
+		top: 0;
+		left: 0;
+		transform: rotate(0deg);
+	}
+}
+  
+@keyframes fade-in-out {
+
+0% {
+opacity: 1;
+}
+
+50% {
+opacity: 0;
+}
+
+100% {
+opacity: 1;
+}
+
+}
 </style>
 </head>
 
 <body>
   
-<h1>Coral</h1>
-<h1>Azevedo</h1>
+<h1>C<div id="stage">
+		
+		<div id="circle"></div>
+		
+		
+	</div>ral</h1>
+<h1 id="lastname">Azevedo</h1>
   
 <div class="type">
-<h1>Type II</h1>
+<h2>Type II</h2>
   
 <h3>Record Sleeve Project</h3>
 
@@ -116,7 +180,7 @@ a {
 </div>
 
 <div class="web">
-<h1>Web Authoring I</h1>
+<h2>Web Authoring I</h2>
 
 <h3>Projects</h3>
 <ul>
@@ -155,7 +219,7 @@ a {
 </div>
   
   <div class="web2">
-  <h1>Web II</h1>
+  <h2>Web II</h2>
   
 <h3>Pink Project</h3>
     
